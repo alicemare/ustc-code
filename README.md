@@ -1,2 +1,1 @@
-# my coding life in ustc
-记录在ustc-cs从大二开始我的代码:)
+for recording my code in ustc from the second year:)

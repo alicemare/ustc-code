@@ -1,0 +1,20 @@
+digraph graphname {
+	a [label="Init 0"]
+	b [label="0"]
+	c [label="0"]
+	d [label="0"]
+	e [label="1"]
+	a->a[label="T", fontcolor=darkgreen]
+	a->b[label="H", fontcolor=red]
+	b->b[label="H", fontcolor=red]
+b->c[label="T", fontcolor=darkgreen]
+c->a[label="H", fontcolor=red]
+c->d[label="H", fontcolor=red]
+d->c[label="T", fontcolor=darkgreen]
+d->e[label="H", fontcolor=red]
+e->b[label="H", fontcolor=red]
+d->c[label="T", fontcolor=darkgreen]
+
+
+
+}

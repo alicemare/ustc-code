@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1541145951">
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="BG-DRC" Name="eight2thre_enecoder.drc"/>
+  <File Type="BG-BGN" Name="eight2thre_enecoder.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="eight2thre_enecoder.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="eight2thre_enecoder.ltx"/>
+  <File Type="BITSTR-MMI" Name="eight2thre_enecoder.mmi"/>
+  <File Type="BITSTR-BMM" Name="eight2thre_enecoder_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="eight2thre_enecoder.nky"/>
+  <File Type="BITSTR-RBT" Name="eight2thre_enecoder.rbt"/>
+  <File Type="BITSTR-MSK" Name="eight2thre_enecoder.msk"/>
+  <File Type="BG-BIN" Name="eight2thre_enecoder.bin"/>
+  <File Type="BG-BIT" Name="eight2thre_enecoder.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="eight2thre_enecoder_bus_skew_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="eight2thre_enecoder_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="eight2thre_enecoder_bus_skew_postroute_physopted.rpt"/>
+  <File Type="RDI-RDI" Name="eight2thre_enecoder.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="eight2thre_enecoder_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="eight2thre_enecoder_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="eight2thre_enecoder_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="eight2thre_enecoder_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="eight2thre_enecoder_postroute_physopt.dcp"/>
+  <File Type="ROUTE-BUS-SKEW" Name="eight2thre_enecoder_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="eight2thre_enecoder_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="eight2thre_enecoder_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="eight2thre_enecoder_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="eight2thre_enecoder_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="eight2thre_enecoder_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="eight2thre_enecoder_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="eight2thre_enecoder_route_status.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="eight2thre_enecoder_power_routed.rpx"/>
+  <File Type="ROUTE-PWR-SUM" Name="eight2thre_enecoder_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="eight2thre_enecoder_power_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="eight2thre_enecoder_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="eight2thre_enecoder_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="eight2thre_enecoder_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="eight2thre_enecoder_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="eight2thre_enecoder_drc_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="eight2thre_enecoder_drc_routed.rpt"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="eight2thre_enecoder_routed_bb.dcp"/>
+  <File Type="ROUTE-DCP" Name="eight2thre_enecoder_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="eight2thre_enecoder_routed_error.dcp"/>
+  <File Type="PHYSOPT-TIMING" Name="eight2thre_enecoder_timing_summary_physopted.rpt"/>
+  <File Type="PHYSOPT-DRC" Name="eight2thre_enecoder_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="eight2thre_enecoder_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="eight2thre_enecoder_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="eight2thre_enecoder_postplace_pwropt.dcp"/>
+  <File Type="PLACE-TIMING" Name="eight2thre_enecoder_timing_summary_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="eight2thre_enecoder_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="eight2thre_enecoder_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="eight2thre_enecoder_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="eight2thre_enecoder_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="eight2thre_enecoder_utilization_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="eight2thre_enecoder_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="eight2thre_enecoder_io_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="eight2thre_enecoder_placed.dcp"/>
+  <File Type="PWROPT-TIMING" Name="eight2thre_enecoder_timing_summary_pwropted.rpt"/>
+  <File Type="PWROPT-DRC" Name="eight2thre_enecoder_drc_pwropted.rpt"/>
+  <File Type="PWROPT-DCP" Name="eight2thre_enecoder_pwropt.dcp"/>
+  <File Type="OPT-TIMING" Name="eight2thre_enecoder_timing_summary_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="eight2thre_enecoder.hwdef"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="eight2thre_enecoder_methodology_drc_opted.rpt"/>
+  <File Type="OPT-DRC" Name="eight2thre_enecoder_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="eight2thre_enecoder_opt.dcp"/>
+  <File Type="INIT-TIMING" Name="eight2thre_enecoder_timing_summary_init.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="eight2thre_enecoder_bus_skew_routed.rpx"/>
+  <File Type="REPORTS-TCL" Name="eight2thre_enecoder_reports.tcl"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="eight2thre_enecoder_bus_skew_routed.pb"/>
+  <File Type="PA-TCL" Name="eight2thre_enecoder.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/8to3coder.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="eight2thre_enecoder"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/HDL/Nexys4DDR_Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Nexys4DDR_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1439183760"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

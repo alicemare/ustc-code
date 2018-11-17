@@ -1,0 +1,12 @@
+
+{ 
+    crc :  1717524700023868937  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 10a79334837f48be901d4deaf4a5d78a --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot comparator_th_behav xil_defaultlib.comparator_th xil_defaultlib.glbl" , 
+    buildDate : "Jun 14 2018" , 
+    buildTime : "20:07:38" , 
+    linkCmd : "/usr/bin/gcc -Wa,-W  -O -fPIC  -m64  -Wl,--unresolved-symbols=ignore-all  -o \"xsim.dir/comparator_th_behav/xsimk\"   \"xsim.dir/comparator_th_behav/obj/xsim_0.lnx64.o\" \"xsim.dir/comparator_th_behav/obj/xsim_1.lnx64.o\" \"/home/alicemare/application/Xilinx/Vivado/2018.2/lib/lnx64.o/librdi_simulator_kernel.so\"  \"/home/alicemare/application/Xilinx/Vivado/2018.2/lib/lnx64.o/librdi_simbridge_kernel.so\"" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

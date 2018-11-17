@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Oct 20 10:00:17 2018
+# Process ID: 8877
+# Current directory: /home/alicemare/Documents/HDL/lab3/lab3_1_2/lab3_1_2.runs/synth_1
+# Command line: vivado -log decoder_74138_dataflow.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source decoder_74138_dataflow.tcl
+# Log file: /home/alicemare/Documents/HDL/lab3/lab3_1_2/lab3_1_2.runs/synth_1/decoder_74138_dataflow.vds
+# Journal file: /home/alicemare/Documents/HDL/lab3/lab3_1_2/lab3_1_2.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source decoder_74138_dataflow.tcl -notrace

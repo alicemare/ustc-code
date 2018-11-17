@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Oct 26 19:19:43 2018
+# Process ID: 5132
+# Current directory: /home/alicemare/Documents/HDL/lab2/lab2_3_1/lab2_3_1.runs/impl_1
+# Command line: vivado -log rca_dataflow.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source rca_dataflow.tcl -notrace
+# Log file: /home/alicemare/Documents/HDL/lab2/lab2_3_1/lab2_3_1.runs/impl_1/rca_dataflow.vdi
+# Journal file: /home/alicemare/Documents/HDL/lab2/lab2_3_1/lab2_3_1.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source rca_dataflow.tcl -notrace

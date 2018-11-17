@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Nov 16 19:23:49 2018
+# Process ID: 9472
+# Current directory: /home/alicemare/Documents/HDL/lab6/lab6_2_2/lab6_2_2.runs/synth_1
+# Command line: vivado -log eightbit_counter.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source eightbit_counter.tcl
+# Log file: /home/alicemare/Documents/HDL/lab6/lab6_2_2/lab6_2_2.runs/synth_1/eightbit_counter.vds
+# Journal file: /home/alicemare/Documents/HDL/lab6/lab6_2_2/lab6_2_2.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source eightbit_counter.tcl -notrace

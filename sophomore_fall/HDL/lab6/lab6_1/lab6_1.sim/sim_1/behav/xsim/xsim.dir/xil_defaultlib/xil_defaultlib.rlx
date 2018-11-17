@@ -1,0 +1,7 @@
+0.6
+2018.2
+Jun 14 2018
+20:07:38
+/home/alicemare/Documents/HDL/lab6/lab6_1/lab6_1.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
+/home/alicemare/Documents/HDL/lab6/lab6_1/lab6_1.srcs/sim_1/new/reg_tb.v,1541681818,verilog,,,,reg_tb,,,,,,,,
+/home/alicemare/Documents/HDL/lab6/lab6_1/lab6_1.srcs/sources_1/new/Register.v,1542366934,verilog,,/home/alicemare/Documents/HDL/lab6/lab6_1/lab6_1.srcs/sim_1/new/reg_tb.v,,Register_with_synch_reset_load_behavior,,,,,,,,

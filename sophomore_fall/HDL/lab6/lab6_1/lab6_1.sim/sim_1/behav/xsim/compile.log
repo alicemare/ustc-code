@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/alicemare/Documents/HDL/lab6/lab6_1/lab6_1.srcs/sources_1/new/Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register_with_synch_reset_load_behavior
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/alicemare/Documents/HDL/lab6/lab6_1/lab6_1.srcs/sim_1/new/reg_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_tb

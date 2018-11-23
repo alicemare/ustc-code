@@ -7,6 +7,6 @@
 template<typename T> class Queue:public List<T>{//队列模板类(继承自list)
 	public:
 		void enqueue(T const &e) {this->insertAsLast(e);}
-		T dequeue(){return remove(this->first());}
+		T dequeue(){return this->rm(this->first());}
 		T & front(){return this->first()->data;}
 };		

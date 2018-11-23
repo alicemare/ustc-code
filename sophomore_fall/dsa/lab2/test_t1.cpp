@@ -1,4 +1,5 @@
 #include"editor.h"
+using namespace std;
 int main()
 {
 	editor txt;
@@ -13,8 +14,7 @@ int main()
 			case 'M':
 			{
 				cin>>x;
-                int step = x-txt.cur_add;
-				txt.move_step(step);
+				txt.move(x);
 				break;
 			}
 			case 'G':
@@ -25,7 +25,6 @@ int main()
 			case 'I':
 			{
                 cin>>x;
-                getchar();
 				txt.insert(x);
 				break;
 			}
@@ -41,16 +40,6 @@ int main()
 				txt.del(x); 
 				break;
 			}
-            case 'P':
-            {
-                txt.prev();
-                break;
-            }
-            case 'N':
-            {
-                txt.next();
-                break;
-            }
 			default:
 			{
 				//do something 

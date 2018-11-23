@@ -3,7 +3,9 @@
  * list 设置头尾哨兵(sentinel node)的好处在于通过这两个null节点,从外部可见的任一节点看来
  * 其前驱和后继均存在,简化算法实现,且不必对边界条件做退化处理
  */
-//提高编程效率
+
+//2018.11.17 继承此类到queue时发现玄学bug之remove返回值给我定的是int,发现似乎有std::remove库函数
+//于是改名为rm(或者用namespace可以解决冲突问题)
 
 //part A.
 /* listnode 的c++实现
@@ -75,7 +77,7 @@ public:
 	ListNodePosi(T) insertAsLast(T const& e);
 	ListNodePosi(T) insertBefore(ListNodePosi(T) p, T const& e);
 	ListNodePosi(T) insertAfter(ListNodePosi(T) p, T const& e);
-	T remove(ListNodePosi(T) p); //初除合法位置p处节点,返回被删除节点(
+	T rm(ListNodePosi(T) p); //初除合法位置p处节点,返回被删除节点(
 	void merge(List<T>& L) { merge(first(), size, L, L.first(), L._size); } //全列表归并
 	void sort(ListNodePosi(T) p, int n); //列表区间排序
 	void sort() { sort(first(), _size); } //列表整体排序
@@ -89,6 +91,7 @@ public:
 }; //List
 
 //part C.list具体实现
+
 /***************************************************
 //构造函数的基础,所有new操作符都应该在这个函数和insertnode
 当然了这是我自己总结的也不知道对不对,感觉为了防止内存泄漏,以及
@@ -182,13 +185,12 @@ List<T>::List (List<T> const &l,Rank r,int n){
 }
 
 //删除p位置的节点
-template <typename T> T List<T>::remove(ListNodePosi(T) p){
+template <typename T> T List<T>::rm(ListNodePosi(T) p){
 	T e = p->data;;// backup data
-	//双向链表易于实现删除,不必再申请一个节点
-	(p->pred)->succ=p->succ;
+	//双向链表易于实现删除,不必再申请一个指针
+	p->pred->succ=p->succ;
 	p->succ->pred=p->pred;
-	delete p;
-	_size--;
+	delete p;_size--;
 	return e;
 }
 
@@ -203,8 +205,8 @@ template <typename T>int List<T>::clear(){
 	//list class在内部维护size 头尾哨兵即可
 	int oldsize = _size;
 	while(0<_size)
-		//remove 改变了_size
-		remove(header->succ);
+		//rm 改变了_size
+		rm(header->succ);
 		//不是delete,否则链表被破坏
 	return oldsize;
 }

@@ -1,0 +1,8 @@
+digraph graphname {
+	a [label="a:main"]
+	b [label="b:sub"]
+	a->b [label="cal B"]
+	b->b[label="exec"]
+	b-> parent[label="return"]
+
+}

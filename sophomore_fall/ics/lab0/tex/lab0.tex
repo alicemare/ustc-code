@@ -1,0 +1,58 @@
+%!TEX encoding = UTF-8 Unicode
+%!TEX program = xelatex
+
+\documentclass{article}
+
+\title{Typesetting LC-3 Assembly with \LaTeX}
+\author{@taoky}
+\date{\today}
+
+\usepackage{xcolor}
+\usepackage{listings,lstautogobble}
+
+% not an all-round defintion, but at least it works in my lab0 report.
+
+\lstdefinelanguage[lc3]{Assembler}{
+	morekeywords={[1]ADD, AND, BRn, BRzp, BRz, BRnp, BRp, BRnz, BR, BRnzp, JMP, JSR, JSRR, LD, LDI, LDR, LEA, NOT, RET,%
+		RTI, ST, STI, STR, TRAP, HALT},
+	morekeywords={[2].ORIG, .FILL, .BLKW, .STRINGZ, .END},
+	morekeywords={[3]R0, R1, R2, R3, R4, R5, R6, R7},
+	alsoletter={x\#},
+	morestring=[b]",
+	morecomment=[l];,
+}[strings,comments,keywords]
+
+\lstset{
+	language=[lc3]{Assembler},
+	basicstyle=\ttfamily,
+	autogobble=true,
+	breaklines=true,
+	numbers=left,
+	postbreak=\mbox{\textcolor{red}{$\hookrightarrow$}\space},
+	captionpos=b,
+}
+
+\begin{document}
+	\maketitle
+
+	\begin{lstlisting}[caption={Wow, such a wonderful LC-3 program!}]
+	; This is a LC-3 assembly demo
+	; from Page 179.
+	.ORIG x3000
+	LD R1, SIX
+	LD R2, NUMBER
+	AND R3, R3, #0         ; Clear R3. It will contain the product.
+
+	; The inner loop
+	AGAIN ADD R3, R3, R2
+	      ADD R1, R1, #-1
+	      BRp AGAIN
+
+	HALT
+
+	NUMBER .BLKW 1
+	SIX    .FILL x0006
+
+	.END
+	\end{lstlisting}
+\end{document}

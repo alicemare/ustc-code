@@ -1,0 +1,76 @@
+.ORIG x3000
+	AND R5,R5,#0	;clear r5 as acc
+	AND R3,R3,#0	;flag
+;check for vaild input
+	AND R0,R0,R0
+	BRnz END
+	AND R1,R1,R1
+	BRnz END
+TESTRb	AND R2,R1,#1
+	BRnp TESTRa
+	LD  R6,LMASK
+	AND R2,R1,R6	;R2为R1低9位的值
+	LD  R6,ADRES
+	ADD R2,R6,R2	;R2为lut中R1低8位右移动对应值地址
+	LDR R4,R2,#0	;根据结果读取右移结果
+	LD  R6,HMASK
+	AND R2,R1,R6
+	LD  R6,ADRES
+	ADD R2,R6,R2	;R2为lut中R1低8位右移动对应值地址
+	LDR R2,R2,#0
+	BRz THRZERO	;三个0相加还是0
+	ADD R2,R2,R2
+	ADD R2,R2,R2
+	ADD R2,R2,R2	;提高8位
+	ADD R4,R4,R2	;得到右移结果
+THRZERO	ADD R1,R4,#0	;R1=R4
+	NOT R3,R3	;flag=1
+TESTRa	AND R2,R0,#1
+	BRnp ENDLOOP
+	LD R6,LMASK
+	AND R2,R0,R6
+	LD R6,ADRES
+	ADD R2,R6,R2
+	LDR R4,R2,#0
+	LD R6,HMASK
+	AND R2,R0,R6
+	LD R6,ADRES
+	ADD R2,R6,R2
+	LDR R2,R2,#0
+	BRz ZERO
+	ADD R2,R2,R2
+	ADD R2,R2,R2
+	ADD R2,R2,R2
+	ADD R4,R4,R2
+ZERO	ADD R0,R4,#0	;R0=R4
+	AND R3,R3,R3	;根据R3判断是否需要递增acc
+	BRz SKIP	;R3为0,skip,R3为1111(负数)递增
+	ADD R5,R5,#1
+	AND R3,R3,#0	;递增之后clear acc
+	;如果R1奇数,此时R3为0不会递增
+SKIP	
+	BRnzp TESTRb	;继续右移动R0,R1
+ENDLOOP
+LOOP
+	NOT R6,R1;
+	ADD R6,R6,#1;
+	ADD R0,R0,R6	;r0=r0-r1
+	BRp LOOP
+	BRz DONE
+	ADD R2,R0,R1	;temp=a+b
+	ADD R0,R1,#0
+	ADD R1,R2,#0	;change a,b	
+	BRnzp LOOP
+
+DONE	ADD R0,R1,#0
+LSHFT	ADD R5,R5,#-1
+	BRn END
+	ADD R0,R0,R0
+	BRnzp LSHFT
+END	HALT
+
+ADRES .FILL x3100
+LMASK .FILL x01ff
+HMASK .FILL xff00
+
+.END

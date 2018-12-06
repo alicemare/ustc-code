@@ -1,0 +1,18 @@
+// Symbol table
+// Scope level 0:
+//	Symbol Name       Page Address
+//	----------------  ------------
+//	TESTRb            3006
+//	THRZERO           3017
+//	TESTRa            3019
+//	ZERO              302A
+//	SKIP              302F
+//	ENDLOOP           3030
+//	LOOP              3030
+//	DONE              3039
+//	LSHFT             303A
+//	END               303E
+//	ADRES             303F
+//	LMASK             3040
+//	HMASK             3041
+

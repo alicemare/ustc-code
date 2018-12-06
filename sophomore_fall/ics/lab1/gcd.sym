@@ -1,8 +1,0 @@
-// Symbol table
-// Scope level 0:
-//	Symbol Name       Page Address
-//	----------------  ------------
-//	GCD               3000
-//	SUB               3002
-//	DONE              3006
-

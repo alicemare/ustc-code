@@ -2,14 +2,12 @@
 # Webtalk v2018.2 (64-bit)
 # SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
 # IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
-# Start of session at: Fri Nov 16 21:32:51 2018
-# Process ID: 22483
+# Start of session at: Thu Nov 22 21:32:53 2018
+# Process ID: 5036
 # Current directory: /home/alicemare/Documents/HDL/lab8/lab8_1_1/lab8_1_1.sim/sim_1/behav/xsim
 # Command line: wbtcv -mode batch -source /home/alicemare/Documents/HDL/lab8/lab8_1_1/lab8_1_1.sim/sim_1/behav/xsim/xsim.dir/signal_behav/webtalk/xsim_webtalk.tcl -notrace
 # Log file: /home/alicemare/Documents/HDL/lab8/lab8_1_1/lab8_1_1.sim/sim_1/behav/xsim/webtalk.log
 # Journal file: /home/alicemare/Documents/HDL/lab8/lab8_1_1/lab8_1_1.sim/sim_1/behav/xsim/webtalk.jou
 #-----------------------------------------------------------
 source /home/alicemare/Documents/HDL/lab8/lab8_1_1/lab8_1_1.sim/sim_1/behav/xsim/xsim.dir/signal_behav/webtalk/xsim_webtalk.tcl -notrace
-INFO: [Common 17-186] '/home/alicemare/Documents/HDL/lab8/lab8_1_1/lab8_1_1.sim/sim_1/behav/xsim/xsim.dir/signal_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Fri Nov 16 21:32:58 2018. For additional details about this file, please refer to the WebTalk help file at /home/alicemare/application/Xilinx/Vivado/2018.2/doc/webtalk_introduction.html.
-webtalk_transmit: Time (s): cpu = 00:00:00.89 ; elapsed = 00:00:06 . Memory (MB): peak = 302.859 ; gain = 0.000 ; free physical = 404 ; free virtual = 7077
-INFO: [Common 17-206] Exiting Webtalk at Fri Nov 16 21:32:58 2018...
+INFO: [Common 17-206] Exiting Webtalk at Thu Nov 22 21:32:54 2018...

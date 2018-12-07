@@ -8,7 +8,7 @@ module bcdto7segment_dataflow(
      input [3:0] bcd;
      output [6:0] seg;
      reg [6:0] seg;
-     assign an[7:0]=~8'b00000001;
+     assign an[7:0]=8'b11111110;
     always @(bcd)
     begin
         case (bcd) //case statement

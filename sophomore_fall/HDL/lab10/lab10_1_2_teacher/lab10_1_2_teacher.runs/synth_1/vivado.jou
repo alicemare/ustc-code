@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Dec  7 15:29:52 2018
+# Process ID: 3229
+# Current directory: /home/alicemare/Documents/HDL/lab10/lab10_1_2_teacher/lab10_1_2_teacher.runs/synth_1
+# Command line: vivado -log moore.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source moore.tcl
+# Log file: /home/alicemare/Documents/HDL/lab10/lab10_1_2_teacher/lab10_1_2_teacher.runs/synth_1/moore.vds
+# Journal file: /home/alicemare/Documents/HDL/lab10/lab10_1_2_teacher/lab10_1_2_teacher.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source moore.tcl -notrace

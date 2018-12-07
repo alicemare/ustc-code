@@ -40,21 +40,23 @@ module eight2thre_enecoder(
         begin
             gs = 0;
             en_out = 1;
-            case (v)
-                8'b0xxxxxxx: y = 3'd0;
-                8'b10xxxxxx: y = 3'd1;
-                8'b110xxxxx: y = 3'd2;
-                8'b1110xxxx: y = 3'd3;
-                8'b11110xxx: y = 3'd4;
-                8'b111110xx: y = 3'd5;
-                8'b1111110x: y = 3'd6;
-                8'b11111110: y = 3'd7;
-            default: begin
-                y=3'd0;
-                gs=0;
-                en_out=1;
-                end      
-        endcase
+            if(v[7]==0)
+            y=3'b000;
+            else if(v[6]==0)
+            y=3'b001;
+            else if(v[5]==0)
+            y=3'b010;
+            else if(v[4]==0)
+            y=3'b011;
+            else if(v[3]==0)
+            y=3'b100;
+            else if(v[2]==0)
+            y=3'b101;
+            else if(v[1]==0)
+            y=3'b110;
+            else if(v[0]==0)
+            y=3'b111;
+            else y=3'b000;
     end
     end
             

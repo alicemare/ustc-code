@@ -1,0 +1,12 @@
+
+{ 
+    crc :  6802001098716159279  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto da97b18ffaff4e6598b064cfcbb2e59c --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot onebitadder_behav xil_defaultlib.onebitadder xil_defaultlib.glbl" , 
+    buildDate : "Jun 14 2018" , 
+    buildTime : "20:07:38" , 
+    linkCmd : "/usr/bin/gcc -Wa,-W  -O -fPIC  -m64  -Wl,--unresolved-symbols=ignore-all  -o \"xsim.dir/onebitadder_behav/xsimk\"   \"xsim.dir/onebitadder_behav/obj/xsim_0.lnx64.o\" \"xsim.dir/onebitadder_behav/obj/xsim_1.lnx64.o\" \"/home/alicemare/application/Xilinx/Vivado/2018.2/lib/lnx64.o/librdi_simulator_kernel.so\"  \"/home/alicemare/application/Xilinx/Vivado/2018.2/lib/lnx64.o/librdi_simbridge_kernel.so\"" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

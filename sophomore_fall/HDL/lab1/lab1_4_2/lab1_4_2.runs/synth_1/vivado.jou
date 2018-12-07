@@ -2,8 +2,8 @@
 # Vivado v2018.2 (64-bit)
 # SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
 # IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
-# Start of session at: Thu Nov 15 18:06:13 2018
-# Process ID: 3719
+# Start of session at: Wed Dec  5 20:45:52 2018
+# Process ID: 2862
 # Current directory: /home/alicemare/Documents/HDL/lab1/lab1_4_2/lab1_4_2.runs/synth_1
 # Command line: vivado -log bcdto7segment_dataflow.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source bcdto7segment_dataflow.tcl
 # Log file: /home/alicemare/Documents/HDL/lab1/lab1_4_2/lab1_4_2.runs/synth_1/bcdto7segment_dataflow.vds

@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1541149127">
-  <File Type="VDS-TIMING-PB" Name="rom_comparator_timing_summary_synth.pb"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="rom_comparator_timing_summary_synth.rpt"/>
+  <File Type="PA-TCL" Name="rom_comparator.tcl"/>
+  <File Type="REPORTS-TCL" Name="rom_comparator_reports.tcl"/>
+  <File Type="RDS-RDS" Name="rom_comparator.vds"/>
   <File Type="RDS-DCP" Name="rom_comparator.dcp"/>
   <File Type="RDS-UTIL-PB" Name="rom_comparator_utilization_synth.pb"/>
   <File Type="RDS-UTIL" Name="rom_comparator_utilization_synth.rpt"/>
-  <File Type="RDS-PROPCONSTRS" Name="rom_comparator_drc_synth.rpt"/>
-  <File Type="RDS-RDS" Name="rom_comparator.vds"/>
-  <File Type="REPORTS-TCL" Name="rom_comparator_reports.tcl"/>
-  <File Type="PA-TCL" Name="rom_comparator.tcl"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/rom_comparator.v">

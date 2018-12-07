@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
-| Date             : Fri Nov 16 21:29:29 2018
+| Date             : Thu Nov 22 22:28:48 2018
 | Host             : pc running 64-bit Ubuntu 18.04.1 LTS
 | Command          : report_power -file signal_power_routed.rpt -pb signal_power_summary_routed.pb -rpx signal_power_routed.rpx
 | Design           : signal
@@ -30,11 +30,11 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 0.183        |
+| Total On-Chip Power (W)  | 0.170        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
 | Dynamic (W)              | 0.086        |
-| Device Static (W)        | 0.097        |
+| Device Static (W)        | 0.084        |
 | Effective TJA (C/W)      | 4.6          |
 | Max Ambient (C)          | 84.2         |
 | Junction Temperature (C) | 25.8         |
@@ -53,15 +53,16 @@ Table of Contents
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
 | Clocks         |    <0.001 |        5 |       --- |             --- |
-| Slice Logic    |    <0.001 |       30 |       --- |             --- |
-|   LUT as Logic |    <0.001 |       15 |     63400 |            0.02 |
-|   Register     |    <0.001 |       10 |    126800 |           <0.01 |
-|   Others       |     0.000 |        2 |       --- |             --- |
-| Signals        |    <0.001 |       20 |       --- |             --- |
+| Slice Logic    |    <0.001 |       39 |       --- |             --- |
+|   LUT as Logic |    <0.001 |        7 |     63400 |            0.01 |
+|   CARRY4       |    <0.001 |        6 |     15850 |            0.04 |
+|   Register     |    <0.001 |       22 |    126800 |            0.02 |
+|   Others       |     0.000 |        4 |       --- |             --- |
+| Signals        |    <0.001 |       34 |       --- |             --- |
 | MMCM           |     0.086 |        1 |         6 |           16.67 |
 | I/O            |    <0.001 |        4 |       210 |            1.90 |
-| Static Power   |     0.097 |          |           |                 |
-| Total          |     0.183 |          |           |                 |
+| Static Power   |     0.084 |          |           |                 |
+| Total          |     0.170 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -73,7 +74,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Vccint    |       1.000 |     0.015 |       0.000 |      0.015 |
 | Vccaux    |       1.800 |     0.066 |       0.048 |      0.018 |
-| Vcco33    |       3.300 |     0.004 |       0.000 |      0.004 |
+| Vcco33    |       3.300 |     0.000 |       0.000 |      0.000 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
 | Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |
 | Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |

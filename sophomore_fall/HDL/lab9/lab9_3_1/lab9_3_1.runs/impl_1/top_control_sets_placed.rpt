@@ -1,0 +1,69 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Fri Nov 30 10:02:57 2018
+| Host         : pc running 64-bit Ubuntu 18.04.1 LTS
+| Command      : report_control_sets -verbose -file top_control_sets_placed.rpt
+| Design       : top
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |     4 |
+| Unused register locations in slices containing registers |     8 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      8 |            2 |
+|    16+ |            2 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               0 |            0 |
+| No           | No                    | Yes                    |              34 |            8 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |              54 |            9 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++--------------------------+--------------------+------------------+------------------+----------------+
+|       Clock Signal       |    Enable Signal   | Set/Reset Signal | Slice Load Count | Bel Load Count |
++--------------------------+--------------------+------------------+------------------+----------------+
+|  clk_wiz_0/inst/clk_out1 | pulse_10hz_reg_n_0 | cnt[18]_i_2_n_0  |                1 |              8 |
+|  clk_wiz_0/inst/clk_out1 | sec_cnt0           | cnt[18]_i_2_n_0  |                1 |              8 |
+|  clk_wiz_0/inst/clk_out1 |                    | cnt[18]_i_2_n_0  |                8 |             34 |
+|  clk_wiz_0/inst/clk_out1 | enable_IBUF        | cnt[18]_i_2_n_0  |                7 |             38 |
++--------------------------+--------------------+------------------+------------------+----------------+
+
+

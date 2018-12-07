@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1543571074">
+  <File Type="BITSTR-MMI" Name="moore.mmi"/>
+  <File Type="ROUTE-CLK" Name="moore_clock_utilization_routed.rpt"/>
+  <File Type="BITSTR-BMM" Name="moore_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="moore.nky"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="moore_timing_summary_routed.rpt"/>
+  <File Type="BG-BIN" Name="moore.bin"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="moore_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="moore_route_status.pb"/>
+  <File Type="BG-BIT" Name="moore.bit"/>
+  <File Type="ROUTE-DRC-PB" Name="moore_drc_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="moore_drc_routed.rpt"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="moore_routed_bb.dcp"/>
+  <File Type="ROUTE-DCP" Name="moore_routed.dcp"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="moore_methodology_drc_routed.rpx"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="moore_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="moore_bus_skew_routed.rpt"/>
+  <File Type="BG-BGN" Name="moore.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="moore.sysdef"/>
+  <File Type="BITSTR-LTX" Name="moore.ltx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="moore_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="moore_postroute_physopt_bb.dcp"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="moore_methodology_drc_routed.pb"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="moore_postplace_pwropt.dcp"/>
+  <File Type="RDI-RDI" Name="moore.vdi"/>
+  <File Type="ROUTE-PWR" Name="moore_power_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="moore_drc_routed.rpx"/>
+  <File Type="ROUTE-PWR-SUM" Name="moore_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="moore_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="moore_route_status.rpt"/>
+  <File Type="PLACE-CTRL" Name="moore_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="moore_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="moore_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="moore_io_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="moore_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="moore_pwropt.dcp"/>
+  <File Type="OPT-HWDEF" Name="moore.hwdef"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="moore_bus_skew_routed.pb"/>
+  <File Type="PA-TCL" Name="moore.tcl"/>
+  <File Type="BITSTR-MSK" Name="moore.msk"/>
+  <File Type="ROUTE-TIMING-PB" Name="moore_timing_summary_routed.pb"/>
+  <File Type="PHYSOPT-DCP" Name="moore_physopt.dcp"/>
+  <File Type="BITSTR-RBT" Name="moore.rbt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="moore_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="moore_bus_skew_routed.rpx"/>
+  <File Type="REPORTS-TCL" Name="moore_reports.tcl"/>
+  <File Type="OPT-DCP" Name="moore_opt.dcp"/>
+  <File Type="OPT-DRC" Name="moore_drc_opted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="moore_routed_error.dcp"/>
+  <File Type="BG-DRC" Name="moore.drc"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/moore.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="moore"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/HDL/Nexys4DDR_Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Nexys4DDR_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1543548965"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

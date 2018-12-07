@@ -1,10 +1,9 @@
 module bcdto7segment_dataflow(
      bcd,
-     an,
      seg
     );
      
-     input [7:0] an;
+     
      input [3:0] bcd;
      output [6:0] seg;
      reg [6:0] seg;

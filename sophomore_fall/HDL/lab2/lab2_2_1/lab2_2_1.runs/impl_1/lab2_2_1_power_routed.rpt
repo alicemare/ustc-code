@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
-| Date             : Thu Nov 15 19:28:45 2018
+| Date             : Wed Dec  5 21:01:10 2018
 | Host             : pc running 64-bit Ubuntu 18.04.1 LTS
 | Command          : report_power -file lab2_2_1_power_routed.rpt -pb lab2_2_1_power_summary_routed.pb -rpx lab2_2_1_power_routed.rpx
 | Design           : lab2_2_1
@@ -52,10 +52,11 @@ Table of Contents
 +----------------+-----------+----------+-----------+-----------------+
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
-| Slice Logic    |     0.024 |        8 |       --- |             --- |
+| Slice Logic    |     0.024 |       10 |       --- |             --- |
 |   LUT as Logic |     0.024 |        5 |     63400 |           <0.01 |
+|   Others       |     0.000 |        2 |       --- |             --- |
 | Signals        |     0.078 |       12 |       --- |             --- |
-| I/O            |     7.772 |       12 |       210 |            5.71 |
+| I/O            |     7.772 |       20 |       210 |            9.52 |
 | Static Power   |     0.156 |          |           |                 |
 | Total          |     8.030 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
@@ -136,7 +137,7 @@ Table of Contents
 +------------------+-----------+
 | lab2_2_1         |     7.874 |
 |   light          |     0.010 |
-|   nolabel_line34 |     0.009 |
+|   nolabel_line12 |     0.009 |
 |     compare_ten  |     0.009 |
 +------------------+-----------+
 

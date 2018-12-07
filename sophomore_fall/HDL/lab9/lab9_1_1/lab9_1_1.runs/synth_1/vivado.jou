@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Nov 30 15:39:48 2018
+# Process ID: 4847
+# Current directory: /home/alicemare/Documents/HDL/lab9/lab9_1_1/lab9_1_1.runs/synth_1
+# Command line: vivado -log onebitadder.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source onebitadder.tcl
+# Log file: /home/alicemare/Documents/HDL/lab9/lab9_1_1/lab9_1_1.runs/synth_1/onebitadder.vds
+# Journal file: /home/alicemare/Documents/HDL/lab9/lab9_1_1/lab9_1_1.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source onebitadder.tcl -notrace

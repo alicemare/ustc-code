@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/alicemare/Documents/HDL/lab9/lab9_1_1_new/lab9_1_1_new.srcs/sources_1/imports/new/onebitadder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module onebitadder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/alicemare/Documents/HDL/lab9/lab9_1_1_new/lab9_1_1_new.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test

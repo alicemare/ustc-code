@@ -2,8 +2,8 @@
 # Vivado v2018.2 (64-bit)
 # SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
 # IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
-# Start of session at: Fri Nov  2 16:07:00 2018
-# Process ID: 7557
+# Start of session at: Wed Dec  5 21:23:55 2018
+# Process ID: 7484
 # Current directory: /home/alicemare/Documents/HDL/lab3/lab3_2_1/lab3_2_1.runs/impl_1
 # Command line: vivado -log eight2thre_enecoder.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source eight2thre_enecoder.tcl -notrace
 # Log file: /home/alicemare/Documents/HDL/lab3/lab3_2_1/lab3_2_1.runs/impl_1/eight2thre_enecoder.vdi

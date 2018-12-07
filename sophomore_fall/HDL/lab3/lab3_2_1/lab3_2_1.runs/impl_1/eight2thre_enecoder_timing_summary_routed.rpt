@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
-| Date         : Fri Nov  2 16:08:38 2018
+| Date         : Wed Dec  5 21:25:33 2018
 | Host         : pc running 64-bit Ubuntu 18.04.1 LTS
 | Command      : report_timing_summary -max_paths 10 -file eight2thre_enecoder_timing_summary_routed.rpt -pb eight2thre_enecoder_timing_summary_routed.pb -rpx eight2thre_enecoder_timing_summary_routed.rpx -warn_on_violation
 | Design       : eight2thre_enecoder

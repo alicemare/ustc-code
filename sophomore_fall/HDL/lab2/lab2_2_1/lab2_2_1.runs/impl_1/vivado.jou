@@ -2,8 +2,8 @@
 # Vivado v2018.2 (64-bit)
 # SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
 # IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
-# Start of session at: Thu Nov 15 19:27:20 2018
-# Process ID: 16300
+# Start of session at: Wed Dec  5 20:58:50 2018
+# Process ID: 4637
 # Current directory: /home/alicemare/Documents/HDL/lab2/lab2_2_1/lab2_2_1.runs/impl_1
 # Command line: vivado -log lab2_2_1.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source lab2_2_1.tcl -notrace
 # Log file: /home/alicemare/Documents/HDL/lab2/lab2_2_1/lab2_2_1.runs/impl_1/lab2_2_1.vdi

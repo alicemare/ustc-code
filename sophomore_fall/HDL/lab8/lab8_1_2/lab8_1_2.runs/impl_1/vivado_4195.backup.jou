@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Nov 23 16:27:45 2018
+# Process ID: 4195
+# Current directory: /home/alicemare/Documents/HDL/lab8/lab8_1_2/lab8_1_2.runs/impl_1
+# Command line: vivado -log display.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source display.tcl -notrace
+# Log file: /home/alicemare/Documents/HDL/lab8/lab8_1_2/lab8_1_2.runs/impl_1/display.vdi
+# Journal file: /home/alicemare/Documents/HDL/lab8/lab8_1_2/lab8_1_2.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source display.tcl -notrace

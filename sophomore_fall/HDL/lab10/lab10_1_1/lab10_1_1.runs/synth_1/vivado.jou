@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Dec  5 22:09:29 2018
+# Process ID: 12008
+# Current directory: /home/alicemare/Documents/HDL/lab10/lab10_1_1/lab10_1_1.runs/synth_1
+# Command line: vivado -log mod3check.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mod3check.tcl
+# Log file: /home/alicemare/Documents/HDL/lab10/lab10_1_1/lab10_1_1.runs/synth_1/mod3check.vds
+# Journal file: /home/alicemare/Documents/HDL/lab10/lab10_1_1/lab10_1_1.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source mod3check.tcl -notrace

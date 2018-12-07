@@ -1,0 +1,12 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: /home/alicemare/application/Xilinx/Vivado/2018.2/bin/unwrapped/lnx64.o/xelab -wto 8a10924067ce42e7aa975e5abec7e22a --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot twobitcounter_behav xil_defaultlib.twobitcounter xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port CE [/home/alicemare/Documents/HDL/lab8/8_2_1_demo/8_2_1.srcs/sim_1/new/twobitcounter.v:11]
+WARNING: [VRFC 10-278] actual bit length 4 differs from formal bit length 16 for port Q [/home/alicemare/Documents/HDL/lab8/8_2_1_demo/8_2_1.srcs/sim_1/new/twobitcounter.v:14]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port CE [/home/alicemare/Documents/HDL/lab8/8_2_1_demo/8_2_1.srcs/sim_1/new/twobitcounter.v:18]
+WARNING: [VRFC 10-278] actual bit length 4 differs from formal bit length 16 for port Q [/home/alicemare/Documents/HDL/lab8/8_2_1_demo/8_2_1.srcs/sim_1/new/twobitcounter.v:21]
+ERROR: [VRFC 10-529] concurrent assignment to a non-net Q1 is not permitted [/home/alicemare/Documents/HDL/lab8/8_2_1_demo/8_2_1.srcs/sim_1/new/twobitcounter.v:14]
+ERROR: [VRFC 10-529] concurrent assignment to a non-net Q2 is not permitted [/home/alicemare/Documents/HDL/lab8/8_2_1_demo/8_2_1.srcs/sim_1/new/twobitcounter.v:21]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

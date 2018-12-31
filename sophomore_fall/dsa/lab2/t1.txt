@@ -1,7 +1,0 @@
-5
-Insert 13
-Balanced eert
-Get
-Del 3
-Get
-

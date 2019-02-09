@@ -1,0 +1,23 @@
+// Symbol table
+// Scope level 0:
+//	Symbol Name       Page Address
+//	----------------  ------------
+//	INIT_CODE         3000
+//	GLOBAL_DATA_POINTER  300C
+//	GLOBAL_MAIN_POINTER  300D
+//	lc3_func          300E
+//	L7                303E
+//	lc3_L3_test       30A6
+//	lc3_L1_test       30A7
+//	main              30AE
+//	lc3_L8_test       30DE
+//	GLOBAL_DATA_START  30E5
+//	func              30E5
+//	L3_test           30E6
+//	L1_test           30E7
+//	L8_test           30E8
+//	L9_test           30E9
+//	L6_test           30EA
+//	L5_test           30EB
+//	L2_test           30EC
+

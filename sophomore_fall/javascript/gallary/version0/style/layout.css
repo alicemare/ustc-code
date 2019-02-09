@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    background: #cccccc;
+    margin: 1em 10%;
+}
+h1{
+    color: #333333;
+    background: transparent;
+}
+a{
+    color: #000000;
+    background: transparent;
+    font-weight: bold;
+    text-decoration: none;
+}
+u1{
+    padding:0
+}
+li{
+    float:left;
+    padding: 1em;
+    list-style: none;
+}

@@ -1,0 +1,26 @@
+<!--在version0的基础上要求能够 1. 预留退路 2.sctipt与html分离 3. if (broswer sniff)-->
+<html>
+    <head>Image Gallary
+        <script src="scripts/showpic.js"></script>
+        <!--rel="styelsheet"引入css-->
+        <link rel="stylesheet" href="style/layout.css" >
+    </head>
+    <body>
+        <h1>Pixiv</h1>
+        <!--操作ul来实现各li项的页内跳转-->
+        <ul id="imagegallary">
+            <li>
+                <a href="images/goishi.png" title="goishi" >goishi</a>
+            </li>
+            <li>
+                <a href="images/kinogo.png" title="kinogo" >kinogo</a>
+            </li>
+            <li>
+                <a href="images/nagatou.png" title="nagatou" >nagatou</a>
+            </li>
+        </ul>
+        <p id="description" >choose an image.</p>
+        <img id= "placeholder" src="images/default.jpeg"
+                alt="my image show gallary"> 
+    </body>
+</html>

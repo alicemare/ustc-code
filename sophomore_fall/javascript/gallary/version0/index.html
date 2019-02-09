@@ -1,0 +1,24 @@
+<html>
+    <head>Image Gallary
+        <script src="scripts/showpic.js"></script>
+        <!--rel="styelsheet"引入css-->
+        <link rel="stylesheet" href="style/layout.css" >
+    </head>
+    <body>
+        <h1>Pixiv</h1>
+        <ul>
+            <li>
+                <a href="images/goishi.png" title="goishi" onclick="showpic(this);return false;">goishi</a>
+            </li>
+            <li>
+                <a href="images/kinogo.png" title="kinogo" onclick="showpic(this);return false;">kinogo</a>
+            </li>
+            <li>
+                <a href="images/nagatou.png" title="nagatou" onclick="showpic(this);return false;">nagatou</a>
+            </li>
+        </ul>
+        <p id="description" >choose an image.</p>
+        <img id= "placeholder" src="images/default.jpeg"
+                alt="my image show gallary"> 
+    </body>
+</html>
